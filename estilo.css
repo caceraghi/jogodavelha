@@ -4,3 +4,34 @@
     box-sizing: border-box;
     font-family: cursive;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #f7f7f7;
+}
+
+principal {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1 {
+   text-align: center; 
+}
+
+hr {
+    font-weight: bold;
+    height: 3px;
+    background: black;
+    margin-bottom: 10px;
+}
+
+.jogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
