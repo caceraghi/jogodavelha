@@ -35,3 +35,11 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.jogo button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background-color: #f7f7f7;
+}
