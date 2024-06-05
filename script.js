@@ -49,7 +49,7 @@ function validar(){
     .filter((item) => item[0] === ultimaJogada)
     .map((item) => item[1]);
 
-    for (pos of positions) {
+    for (pos of posicoes) {
         if (pos.every((item) => items.includes(item))) {
           alert("O JOGADOR '" + ultimaJogada + "' GANHOU!");
           init();
